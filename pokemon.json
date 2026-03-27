@@ -1,0 +1,89 @@
+[
+  {
+    "name": {
+      "english": "Pikachu"
+    },
+    "level": 25,
+    "type": [
+      "Electric"
+    ],
+    "base": {
+      "HP": 35,
+      "Attack": 55,
+      "Defense": 40,
+      "Sp. Attack": 50,
+      "Sp. Defense": 50,
+      "Speed": 90
+    }
+  },
+  {
+    "name": {
+      "english": "Charmander"
+    },
+    "level": 15,
+    "type": [
+      "Fire"
+    ],
+    "base": {
+      "HP": 39,
+      "Attack": 52,
+      "Defense": 43,
+      "Sp. Attack": 60,
+      "Sp. Defense": 50,
+      "Speed": 65
+    }
+  },
+  {
+    "name": {
+      "english": "Squirtle"
+    },
+    "level": 18,
+    "type": [
+      "Water"
+    ],
+    "base": {
+      "HP": 44,
+      "Attack": 48,
+      "Defense": 65,
+      "Sp. Attack": 50,
+      "Sp. Defense": 64,
+      "Speed": 43
+    }
+  },
+  {
+    "name": {
+      "english": "Froslass"
+    },
+    "level": 50,
+    "type": [
+      "Ice",
+      "Ghost"
+    ],
+    "base": {
+      "HP": 177,
+      "Attack": 90,
+      "Defense": 100,
+      "Sp. Attack": 118,
+      "Sp. Defense": 109,
+      "Speed": 145
+    }
+  },
+  {
+    "name": {
+      "english": "Chandelure"
+    },
+    "level": 50,
+    "type": [
+      "Fire",
+      "Ghost"
+    ],
+    "base": {
+      "HP": 150,
+      "Attack": 77,
+      "Defense": 114,
+      "Sp. Attack": 177,
+      "Sp. Defense": 121,
+      "Speed": 118
+    }
+  }
+]
