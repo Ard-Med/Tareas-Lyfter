@@ -1,0 +1,55 @@
+Cree un pseudocódigo que le pida un precio de producto al usuario, calcule su descuento y muestre el precio final tomando en cuenta que:
+Si el precio es menor a 100, el descuento es del 2%.
+Si el precio es mayor o igual a 100, el descuento es del 10%.
+
+START
+DEFINE product_price = 0
+DEFINE discount = 0
+DEFINE final_cost = 0 
+PRINT "Insert the price to know the discount"
+INPUT product_price
+
+IF (product_price < 100)
+ discount = (product_price * 0.02)
+ELSE
+ discount = (product_price * 0.1)
+ 
+final_cost = product_price - discount
+PRINT "The price after the discount is:"
+PRINT final_cost
+END
+
+
+Cree un pseudocódigo que le pida un tiempo en segundos al usuario y calcule si es menor o mayor a 10 minutos. 
+Si es menor, muestre cuantos segundos faltarían para llegar a 10 minutos. Si es mayor, muestre “Mayor”. Si es exactamente igual, muestre “Igual”.
+
+START
+DEFINE time_in_seconds = 0
+DEFINE ten_min_counter = 0
+PRINT "Insert the time in seconds"
+INPUT time_in_seconds
+
+IF (time_in_seconds < 600) 
+ ten_min_counter = (600 - time_in_seconds)
+ PRINT "You still need" ten_min_counter "seconds to reach 10 minutes"
+ELSE IF (time_in_seconds == 600)
+ PRINT "Igual"
+ELSE 
+ PRINT "Mayor" 
+END
+
+Cree un algoritmo que le pida un numero al usuario, y realice una suma de cada numero del 1 hasta ese número ingresado. 
+Luego muestre el resultado de la suma.
+
+START
+DEFINE random_number = 0
+DEFINE total_sum = 0
+DEFINE sum_of_numbers = 0
+PRINT "Enter a number"
+INPUT random_number
+
+WHILE (sum_of_numbers < random_number)
+ sum_of_numbers = sum_of_numbers + 1
+ total_sum = total_sum + sum_of_numbers
+PRINT "La suma es de:" total_sum
+END

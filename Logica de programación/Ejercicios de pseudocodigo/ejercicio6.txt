@@ -1,0 +1,63 @@
+Cree un algoritmo que le pida 2 números al usuario, los guarde en dos variables distintas (primero y segundo) y los ordene de menor a mayor en dichas variables.
+START
+DEFINE primero = 0
+DEFINE segundo = 0
+DEFINE stored_value1 = 0
+DEFINE stored_value2 = 0
+PRINT "Ingresa dos numeros"
+INPUT primero
+INPUT segundo
+
+IF (primero > segundo)
+ stored_value1 = primero
+ stored_value2 = segundo
+ primero = stored_value2
+ segundo = stored_value1
+
+PRINT primero
+PRINT segundo
+END
+
+
+Cree un algoritmo que le pida al usuario una velocidad en km/h y la convierta a m/s.
+Recuerda que 1 km == 1000m y 1 hora == 60 minutos * 60 segundos.
+
+START
+DEFINE speed
+DEFINE meter_seconds
+PRINT "Enter a speed value"
+INPUT speed
+
+meter_seconds = speed * 1000 / 3600
+
+PRINT "La velocidad en metros sobre segundo es de: "
+PRINT meter_seconds
+END
+
+Cree un algoritmo que le pregunte al usuario por el sexo de 6 personas. 
+Ingresando 1 si es mujer o 2 si es hombre, y muestre al final el porcentaje de mujeres y hombres.
+
+START
+
+DEFINE counter = 0
+DEFINE male = 0
+DEFINE female = 0
+DEFINE gender_value = 0
+PRINT "Ingresa el genero de 6 personas, 1 si es mujer o 2 si es hombre"
+
+WHILE (counter < 6 )
+ INPUT gender_value
+ IF (gender_value = 1)
+  female = female + 1 
+ ELSE IF (gender_value = 2)
+   male = male + 1
+ ELSE
+  PRINT "Valor invalido"
+  END IF
+ counter = counter + 1  
+ END WHILE
+ male = male / counter * 100
+ female = female/ counter * 100
+ PRINT "El porcentaje de hombres es de: " male "y el porcentaje de mujeres es de: " female
+END
+	

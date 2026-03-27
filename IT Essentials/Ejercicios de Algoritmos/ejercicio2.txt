@@ -1,0 +1,122 @@
+Cree un algoritmo como preparar una fiesta sorpresa para un amigo o familiar. Considere si la persona está en casa o no, si los invitados ya llegaron o no, qué hacer mientras esperan, y cómo finaliza la fiesta
+
+Start
+Choose the date and time
+IF person is at home:
+ Create a distraction plan
+ Ask someone to take them out
+ Set a return time
+ELSE:
+ Confirm they won't return early
+ Check how much time you have
+Send invitations to guests
+Prepare the location
+ Decorate with balloons and banners
+ Hide decorations if person might return
+Buy food and drinks
+WHILE waiting for guests to arrive:
+ Set up music playlist
+ Arrange furniture
+ Prepare party games
+IF guests haven't arrived AND person is coming soon:
+ Call guests to hurry
+ Turn off lights
+ Hide
+ELSE IF guests already arrived:
+ Brief everyone on the plan
+ Assign positions to hide
+ Turn off lights
+WHILE waiting for the person to come in:
+ Stay quiet
+IF person arrives:
+ Everyone yells "SURPRISE!"
+ Turn on lights
+ Play music
+ Start celebration
+WHILE party is ongoing:
+ Serve food and drinks
+ Play games
+ Take photos
+ Open gifts
+IF it's getting late OR person looks tired:
+ Start saying goodbyes
+ Clean up together
+ Thank everyone for coming
+ELSE:
+ Continue partying
+End
+
+
+Cree un algoritmo que represente cómo prepararse para un examen importante. Debe incluir una lista de actividades (leer, repasar, practicar), condiciones como si ya entendió la materia, o si tiene dudas, y un ciclo que se repita hasta sentirse listo
+
+Start
+Check exam date and topics
+Create study schedule
+Get all materials (books, notes, slides)
+WHILE not feeling ready:
+ Review topic list
+    FOR each topic in the list:
+        Read the material
+        Take notes
+        Highlight important concepts
+        IF topic is understood:
+            Mark as completed
+            Move to next topic
+        ELSE IF you have doubts:
+            Watch tutorial videos
+            Ask teacher or classmates
+            Read again
+            IF still confused:
+                Schedule tutoring session
+            ELSE:
+                Mark as completed
+    Practice exercises
+        IF getting answers wrong:
+            Review theory again
+            Practice more problems
+        ELSE:
+            Continue to next topic
+    Take a practice test
+    IF score is below 70%:
+        Identify weak areas
+        Focus on those topics
+        Repeat study cycle
+    ELSE IF score is between 70-85%:
+        Review mistakes
+        Do more practice problems
+    ELSE IF score is above 85%:
+        Do final review
+        Feel confident
+Take Exam
+Approve
+End
+
+Cree un algoritmo de como se prepara para ir a su viaje de diversión favorito
+
+Start
+Decide destination and dates
+Check budget available
+IF traveling by plane:
+ Book flight tickets in advance
+ Check baggage policies
+ELSE IF traveling by car:
+ Check vehicle condition
+ Plan route and stops
+ELSE IF traveling by bus OR train:
+ Buy tickets
+ Check schedules
+Book accommodation
+    IF prefer comfort:
+        Book hotel
+    ELSE IF on budget:
+        Book hostel or Airbnb
+    ELSE:
+        Stay with friends or family
+Research destination
+    Check weather forecast
+    Find attractions and activities
+    Look for good restaurants
+    Read reviews
+Take trip
+Have a good time
+End
