@@ -1,0 +1,61 @@
+Cree un algoritmo para ver un video en Youtube. Sea lo más especifico posible.
+
+Start
+Have power and internet connection
+IF you have a laptop OR computer:
+ Open youtube from a browser
+ELSE IF you have a tablet OR a Smartphone:
+ Open youtube from the application
+ELSE IF you have a SMART TV AND the youtube application
+ Turn on TV
+ Open Youtube app
+ELSE
+ You can't watch youtube
+Type the video name
+Open the correct video
+Watch
+END
+
+Cree un algoritmo que describa su rutina diaria. Use condiciones, condiciones multiples y ciclos.
+
+Start
+Wake up
+IF there's a cat with you:
+ Pet the cat
+ Move the cat
+ELSE
+ Go to the bathroom
+While teeth feel dirty
+	Brush teeth
+Prepare breakfast
+IF hungry for hotcakes
+ Cook hotcakes
+Else IF hungry for chilaquiles
+ Cook chilaquiles
+Else IF feeling lazy
+ Order food
+ELSE
+ Get something from the fridge
+Work
+Attend meetings
+Resolve incidents
+IF its office day
+ Go to office
+ELSE
+ Work from home
+Go to the gym
+IF its leg day
+ Workout legs
+ELSE IF its arm day
+ Workout arms
+ELSE IF its chest and back day
+ Workout chest and back
+ELSE
+ Cardio and ABS
+Have dinner
+IF breakfast was takeout
+ Cook something in the house
+ELSE
+ Order takeout
+Go to sleep
+End 
