@@ -12,7 +12,9 @@ Welcome, select an option:
     4. See average score of all students
     5. Export all data to CSV
     6. Import data from CSV
-    7. Exit
+    7. Delete a student
+    8. See failing students
+    9. Exit
     """)
         try:
             option = int(option)
@@ -29,9 +31,13 @@ Welcome, select an option:
             elif option == 6:
                 students = data.import_data_from_csv(students)
             elif option == 7:
+                students = actions.delete_student(students)
+            elif option == 8:
+                actions.see_failing_students(students)
+            elif option == 9:
                 print("Goodbye!")
                 break
             else:
-                print("Please enter a number between 1 and 7.")
+                print("Please enter a number between 1 and 9.")
         except ValueError:
             print("Invalid input, please enter a number.")
