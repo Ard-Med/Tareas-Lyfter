@@ -1,4 +1,4 @@
-
+from actions import Student
 import os
 import csv
 
@@ -21,7 +21,7 @@ def export_data_to_csv(students, filename="StudentControl.csv"):
         writer = csv.DictWriter(file, fieldnames=headers)
         if not file_exists:
             writer.writeheader()
-        writer.writerows(students)
+        writer.writerows(student.to_dict() for student in students)
     print("Data exported successfully.")
 
 def import_data_from_csv(students, filename="StudentControl.csv"):
@@ -31,6 +31,13 @@ def import_data_from_csv(students, filename="StudentControl.csv"):
     with open(filename, "r", encoding="utf-8") as file:
         reader = csv.DictReader(file)
         for row in reader:
-            students.append(row)
+            students.append(Student(
+            row["Student Name"],
+            row["Student Section"],
+            int(row["Spanish Score"]),
+            int(row["English Score"]),
+            int(row["Social Score"]),
+            int(row["Science Score"])
+    ))
     print("Data imported successfully.")
     return students
