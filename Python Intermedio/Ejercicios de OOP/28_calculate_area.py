@@ -5,9 +5,11 @@
 import math
 
 class Circle:
-    radius = 0
-    def get_area(self,radius):
-        area = math.pi*(radius**2)
+    def __init__(self, radius):
+        self.radius = radius
+    
+    def get_area(self):
+        area = math.pi*(self.radius**2)
         return area
 
 my_circle = Circle()
