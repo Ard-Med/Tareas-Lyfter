@@ -9,9 +9,9 @@ def print_numbers_times_2(numbers_list): # O(n)
 
 
 # check_if_lists_have_an_equal
-def check_if_lists_have_an_equal(list_a, list_b): #O(n²)
+def check_if_lists_have_an_equal(list_a, list_b): #O(n x m)
     for element_a in list_a:            # O(n) - iterates N times
-        for element_b in list_b:        # O(n²) - second nested loop
+        for element_b in list_b:        # O(n x m) - as lists can be different size
             if element_a == element_b:  # O(1) - no loops or recursion
                 return True             # O(1) - no loops or recursion
     return False                        # O(1) - no loops or recursion
