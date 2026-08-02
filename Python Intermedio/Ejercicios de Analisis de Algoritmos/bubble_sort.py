@@ -11,5 +11,5 @@ def bubble_sort_right_to_left(arr): # O(1) - getting the length of the list
                 print(f"Pass {i + 1}, step {j}: {arr}")  # O(1) print (excluded from complexity, but technically O(n) due to string formatting of the list)
     return arr #O(1)
 
-arr = [64, 34, 25, 12, 22, 11, 90]
+arr = [64, 34, 25, 12, 22, 11, 99]
 print(f"Final:   {bubble_sort_right_to_left(arr)}")
